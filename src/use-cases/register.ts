@@ -1,5 +1,6 @@
 import { prisma } from '@/lib/prisma'
 import { hash } from 'bcryptjs'
+
 interface registerUseCaseRequest {
   name: string
   email: string
