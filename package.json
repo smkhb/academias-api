@@ -8,7 +8,8 @@
     "start": "node build/server.js",
     "build": "tsup src --out-dir build",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "test:coverage": "vitest --coverage"
   },
   "keywords": [],
   "author": "",
@@ -22,13 +23,14 @@
     "tsx": "4.19.0",
     "typescript": "5.5.4",
     "vite-tsconfig-paths": "5.0.1",
-    "vitest": "2.0.5"
+    "vitest": "2.1.2"
   },
   "dependencies": {
     "@prisma/client": "5.19.0",
+    "@vitest/coverage-v8": "2.1.2",
     "bcryptjs": "2.4.3",
     "dotenv": "16.4.5",
-    "fastify": "4.28.1",
+    "fastify": "2.11.0",
     "zod": "3.23.8"
   }
 }
