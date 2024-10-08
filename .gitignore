@@ -132,3 +132,6 @@ dist
 # Others
 build
 .env
+.dependency-cruiser.js
+dependencies.html
+depcruise-config.js

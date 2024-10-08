@@ -10,7 +10,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest --coverage",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "depcruise:archi": "depcruise --version && depcruise --config depcruise-config.js --output-type archi src | dot -T svg | depcruise-wrap-stream-in-html > dependencies.html"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
     "@rocketseat/eslint-config": "2.2.2",
     "@types/bcryptjs": "2.4.6",
     "@types/node": "22.5.0",
+    "dependency-cruiser": "16.4.2",
     "prisma": "5.19.0",
     "tsup": "8.2.4",
     "tsx": "4.19.0",
