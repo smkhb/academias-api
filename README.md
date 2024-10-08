@@ -2,7 +2,7 @@
 
 ## RFs
 
-- [ ] Deve ser possível se cadastrar;
+- [x] Deve ser possível se cadastrar;
 - [ ] Deve ser possível se autenticar;
 - [ ] Deve ser possível obter o perfil de um usuário logado;
 - [ ] Deve ser possível obter o número de checkins pelo usuário logado;
@@ -15,7 +15,7 @@
 
 ## RNs
 
-- [ ] O usuário não deve poder se cadastrar com um email já cadastrado;
+- [x] O usuário não deve poder se cadastrar com um email já cadastrado;
 - [ ] O usuário não deve poder fazer 2 checkins no mesmo dia;
 - [ ] O usuário não deve poder fazer checkin se não estiver perto (100m) da academia;
 - [ ] O checkin só pode ser validado até 20 minutos após criado;
@@ -24,7 +24,7 @@
 
 ## RNFs
 
-- [ ] A senha do usuário deve ser criptografada;
+- [x] A senha do usuário deve ser criptografada;
 - [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuario deve ser iddentificado por um JWT (JSON Web Token);
