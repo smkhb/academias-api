@@ -16,7 +16,7 @@
 ## RNs
 
 - [x] O usuário não deve poder se cadastrar com um email já cadastrado;
-- [ ] O usuário não deve poder fazer 2 checkins no mesmo dia;
+- [x] O usuário não deve poder fazer 2 checkins no mesmo dia;
 - [ ] O usuário não deve poder fazer checkin se não estiver perto (100m) da academia;
 - [ ] O checkin só pode ser validado até 20 minutos após criado;
 - [ ] O checkin só pode ser validado por administradores;
