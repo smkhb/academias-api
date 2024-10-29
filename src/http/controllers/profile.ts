@@ -5,7 +5,6 @@ export async function profile(
   request: FastifyRequest,
   reply: FastifyReply<any>,
 ) {
-
   const getUserProfile = makeGetUserProfileUseCase()
 
   const { user } = await getUserProfile.execute({
