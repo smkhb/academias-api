@@ -11,7 +11,7 @@ export async function nearby(
     longitude: z.number().refine((value) => Math.abs(value) <= 180),
   })
 
-  const { latitude, longitude } = nearbyGymsQuerySchema.parse(request.body)
+  const { latitude, longitude } = nearbyGymsQuerySchema.parse(request.query)
 
   const featchNearbyGymsUseCase = makeFetchNearbyGymsUseCase()
 
