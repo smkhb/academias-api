@@ -3,7 +3,7 @@ import { GymsRepository } from '@/repositories/gyms-repository'
 
 interface FetchNearbyGymUseCaseRequest {
   userLatitude: number
-  userLongtitude: number
+  userLongitude: number
 }
 
 interface FetchNearbyGymUseCaseResponse {
@@ -15,11 +15,11 @@ export class FetchNearbyGymUseCase {
 
   async execute({
     userLatitude,
-    userLongtitude,
+    userLongitude,
   }: FetchNearbyGymUseCaseRequest): Promise<FetchNearbyGymUseCaseResponse> {
     const gyms = await this.gymsRepository.findManyNearby({
       latitude: userLatitude,
-      longitude: userLongtitude,
+      longitude: userLongitude,
     })
 
     return { gyms }
