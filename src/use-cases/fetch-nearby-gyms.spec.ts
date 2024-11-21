@@ -30,7 +30,7 @@ describe('Fetch Nearby Gyms Use Case', () => {
 
     const { gyms } = await sut.execute({
       userLatitude: 0,
-      userLongtitude: 0,
+      userLongitude: 0,
     })
 
     expect(gyms).toHaveLength(1)
