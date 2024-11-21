@@ -13,6 +13,7 @@
     "test:watch": "vitest --dir src/use-cases",
     "pretest:e2e": "run-s test:create-prisma-environment test:install-prisma-environment",
     "test:e2e": "vitest run --dir src/http",
+    "test:e2e:watch": "vitest --dir src/http",
     "test:coverage": "vitest run --coverage",
     "test:ui": "vitest --ui",
     "depcruise:archi": "depcruise --version && depcruise --config depcruise-config.js --output-type archi src | dot -T svg | depcruise-wrap-stream-in-html > dependencies.html"
@@ -25,6 +26,7 @@
     "@types/bcryptjs": "2.4.6",
     "@types/node": "22.5.0",
     "prisma": "5.19.0",
+    "supertest": "7.0.0",
     "tsup": "8.2.4",
     "tsx": "4.19.0",
     "typescript": "5.5.4",
@@ -34,6 +36,7 @@
   "dependencies": {
     "@fastify/jwt": "9.0.1",
     "@prisma/client": "5.19.0",
+    "@types/supertest": "6.0.2",
     "@vitest/coverage-v8": "2.1.2",
     "@vitest/ui": "2.1.2",
     "bcryptjs": "2.4.3",
