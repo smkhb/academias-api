@@ -19,7 +19,7 @@
 - [x] O usuário não deve poder fazer 2 checkins no mesmo dia;
 - [x] O usuário não deve poder fazer checkin se não estiver perto (100m) da academia;
 - [x] O checkin só pode ser validado até 20 minutos após criado;
-- [ ] O checkin só pode ser validado por administradores;
+- [x] O checkin só pode ser validado por administradores;
 - [ ] A academia só pode ser cadastrada por administradores;
 
 ## RNFs
@@ -27,4 +27,4 @@
 - [x] A senha do usuário deve ser criptografada;
 - [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [x] Todas listas de dados precisam estar paginadas com 20 itens por página;
-- [ ] O usuario deve ser iddentificado por um JWT (JSON Web Token);
+- [x] O usuario deve ser iddentificado por um JWT (JSON Web Token);
