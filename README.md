@@ -20,7 +20,7 @@
 - [x] O usuário não deve poder fazer checkin se não estiver perto (100m) da academia;
 - [x] O checkin só pode ser validado até 20 minutos após criado;
 - [x] O checkin só pode ser validado por administradores;
-- [ ] A academia só pode ser cadastrada por administradores;
+- [x] A academia só pode ser cadastrada por administradores;
 
 ## RNFs
 
